@@ -1,0 +1,228 @@
+html, body {
+    padding-top: 37px;
+    color: #404040;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    height:100%;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        text-align: left;
+    }
+
+    #hideMobile {
+        visibility:hidden;
+        clear:both;
+        float:left;
+        display;none;
+    }
+
+    #footerTitle {
+        color:white;
+    }
+
+    #contactInfo {
+        color:white;
+    }
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 600px) {
+    p {
+        font-size:1em !important;
+    }
+
+    li {
+        font-size:1em !important;
+    }
+
+    .navbar-nav>li>a {
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+
+    .nav>li>a {
+        padding: 10px 10px;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1200px) {
+    p {
+        font-size:1.2em !important;
+    }
+
+    li {
+        font-size:1.2em !important;
+    }
+
+    .navbar-nav>li>a {
+        padding-top:15px;
+        padding-bottom:15px;
+    }
+
+    .nav>li>a {
+        padding: 15px 15px;
+    }
+}
+
+p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+li {
+    padding: 5px;
+}
+
+h2 {
+    color:#073a1b;
+    font-size:1.6em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+h3 {
+    color:black;
+    font-size:1.4em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.jumbotron {
+    background: #073a1b;
+    /* background: #49b17e; /* For browsers that do not support gradients */
+    /* background: -webkit-linear-gradient(#49b17e, #5cbc8e); /* For Safari 5.1 to 6.0 */
+    /* background: -o-linear-gradient(#49b17e, #5cbc8e); /* For Opera 11.1 to 12.0 */
+    /* background: -moz-linear-gradient(#49b17e, #5cbc8e); /* For Firefox 3.6 to 15 */
+    /* background: linear-gradient(#49b17e, #5cbc8e); /* Standard syntax */
+}
+
+.jumboblock {
+    background: #073a1b;
+    /* background: #49b17e; /* For browsers that do not support gradients */
+    /* background: -webkit-linear-gradient(#49b17e, #5cbc8e); /* For Safari 5.1 to 6.0 */
+    /* background: -o-linear-gradient(#49b17e, #5cbc8e); /* For Opera 11.1 to 12.0 */
+    /* background: -moz-linear-gradient(#49b17e, #5cbc8e); /* For Firefox 3.6 to 15 */
+    /* background: linear-gradient(#49b17e, #5cbc8e); /* Standard syntax */
+    border-radius: 10px;
+    padding-left: 50px;
+}
+
+.banner {
+    display:block;
+    width:100%;
+    margin-bottom: 10px;
+    border:1px solid;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -75px;
+    visibility: hidden;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-menu > li > a, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color:#073a1b;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover {
+    color:#073a1b;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color:#073a1b;
+}
+
+.caret {
+    margin-left:6px;
+}
+
+.popupBox {
+    position:absolute;
+    background: #073a1b;
+    display:none;
+    border-radius:2px;
+    padding:15px;
+    z-index: 999;
+}
+
+.popupHoverElement:hover {
+    cursor:pointer;
+}
+
+.popupBox:hover {
+    display:none;
+}
+
+.popupHoverElement:hover .popupBox {
+    display:block;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.portrait {
+    /*border: 5px solid black;*/
+}
+
+.jumboLink {
+    color:white;
+}
+
+.jumboLink:hover {
+    color:#9494a0;
+}
+
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -260px;
+}
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+.site-footer, .page-wrap:after {
+    height: 260px;
+}
+.site-footer {
+    background:#9494a0;
+}
+
+#footerTitle {
+    color:white;
+    margin-top:100px;
+}
+
+#contactInfo {
+    color:white;
+    margin-top:50px;
+}
